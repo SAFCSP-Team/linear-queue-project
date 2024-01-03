@@ -21,12 +21,14 @@ You have a list of coffee shop orders that need to be stored, use the `queue` da
 
 ### Implementation
 
-Write the implemenation of the `queue` to store the orders.
+Write the implementation of the `queue` to store the orders of type class order.
 
 1. Create either queue array or queue linked list.
-2. In the main method, add the follwoing orders `["black coffe", "latte"]`.
-3. Remove/`Dequeue` the two orders, then add another orders which are `["mocca", "espreso", "americano"]`
-4. Finally print the value of `head` and the value of `tail`.
+2. Create a Node class to store the order objects.
+3. Complete the Order class that has two attributes id and name.
+4. In the main method, store three orders object in the queue.
+3. **Dequeue** two orders.
+4. Finally print the value of `front` and the value of `rear`.
 
 ````Java
 public class Main {
