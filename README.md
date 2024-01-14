@@ -2,7 +2,7 @@
 
 ### Objective
 
-In this project, we will be covered the fundamentals of a `queue`, and its primary operations, `enqueue` and `dequeueand`.
+In this project, we will cover the fundamentals of a `queue`, and its primary operations, `enqueue` and `dequeueand`.
 
 ### Concepts
 
@@ -21,12 +21,12 @@ You have a list of coffee shop orders that need to be stored, use the `queue` da
 
 ### Implementation
 
-Write the implementation of the `queue` to store the orders of type class order.
+Write a **queue** implementation to store orders of type `Order`.
 
-1. Create either queue array or queue linked list.
-2. Create a Node class to store the order objects.
+1. Create either a queue array or queue linked list.
+2. If you choose to implement the queue using a linked list, then create a `Node` class to store the order objects.
 3. Complete the Order class that has two attributes id and name.
-4. In the main method, store three orders object in the queue.
+4. In the main method, store three order objects in the queue.
 3. **Dequeue** two orders.
 4. Finally print the value of `front` and the value of `rear`.
 
@@ -39,6 +39,6 @@ public class Main {
 }
 ````
 
-> * Once you complete this project, Create an issue with title "Completed [your-username]".
+> * Once you complete this project, Create an issue with the title "Completed [your-username]".
 > * You can use either Queue Array or Queue Linked List, to complete this project.
 > * Create an issue of your questions, If you face any trouble solving the project.
